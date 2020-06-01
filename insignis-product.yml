@@ -11,4 +11,4 @@ server:
   port: 8086
 application:
   service:
-    supplier: http://localhost:8085/supplier
+    supplier: http://insignis-supplier/supplier
