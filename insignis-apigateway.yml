@@ -1,3 +1,21 @@
 spring:
   application:
     name: insignis-apigateway
+server:
+  port: 8080
+  
+#Metrics related configurations
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      prometheus:
+        enabled: true
