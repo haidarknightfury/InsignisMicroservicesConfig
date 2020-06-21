@@ -1,6 +1,6 @@
 spring:
   application:
-    name: insignis-client
+    name: insignis-recommender
   data:
     mongodb:
       database: insignis-db
