@@ -1,7 +1,7 @@
 spring:
   data:
     neo4j:
-      uri: bolt://localhost:7687
+      uri: bolt://localhost:11003
       username: neo4j
       password: supermarket
 server:
